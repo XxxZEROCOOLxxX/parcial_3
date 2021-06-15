@@ -1,0 +1,131 @@
+h1, h2, h3, h4, h5 { font-family: 'Kurale', serif; } 
+h6 { font-family: 'Raleway', sans-serif; }
+p, a, button, form, input, select, option, textarea, em, span, strong, div, ul { font-family: 'Montserrat', sans-serif; }
+
+header, main, footer, aside, section, article, figure, nav, div { display:block; }
+
+h1, h2, h3, h4, h5, h6, p, figure { margin: 0 ;}
+
+body { margin: 0 !important; }
+
+/* Aside Whatsapp */
+aside#whatsapp { width: 45px; height: 45px; display: block; margin: 0; float: none; position: fixed; bottom: 20px; right: 20px; z-index: 99998; }
+aside#whatsapp a { width: 100%; height: auto; display: block; margin: 0; float: none; position: relative; background: #00bb2d; color: #fff; font-size: 1.5em; text-align: center; padding: 6px 0; border-radius: 50%; transition: all 0.3s ease-in; }
+aside#whatsapp a:hover { transition: all 0.3s ease-in; background: #00771c ; }
+
+/* Aside Scroll top */
+aside#scroll-top { width: 45px;height: 45px;display: block;margin: 0;float: none;position: fixed;bottom: 75px;right: 20px; z-index: 99997; }
+aside#scroll-top a { width: 100%;height: auto;display: block;margin: 0;float: none;position: relative;background: #080bc5 ;color: #fff;font-size: 1.5em;text-align: center;line-height: 1em;padding: 10px 0;border-radius: 50%;transition: all 0.3s ease-in; }
+aside#scroll-top a:hover { background: #000; transition: all 0.3s ease-in; }
+
+/* Responsive menu moviles */
+aside#menu-moviles { display: none; width: 290px; height: 100%; margin: 0; float: none; position: fixed; top: 0; left: -290px; z-index: 99999; background: #0509d39a }
+
+aside#menu-moviles a#abrir { width: 39px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 22px; right: -39px; z-index: 1; background: #080bc5; color: #fff; font-size: 1.3em; text-align: center; line-height: 1em; padding: 9.5px 0; border-radius: 0 5px 5px 0; transition: all 0.3s ease-in; }
+aside#menu-moviles a#abrir:hover { transition: all 0.3s ease-in; background: #232485;; }
+
+aside#menu-moviles a#cerrar { width: 39px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 22px; right: -39px; z-index: 2; background: #080bc5; color: #fff; font-size: 1.3em; text-align: center; line-height: 1em; padding: 9.5px 0; border-radius: 0 5px 5px 0; transition: all 0.3s ease-in; }
+aside#menu-moviles a#cerrar:hover { transition: all 0.3s ease-in;  }
+
+aside#menu-moviles nav { width: 70%; height: auto; display: block; margin: 50px 0 auto; float: none; position: relative; }
+aside#menu-moviles nav a { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; font-size: 1.5em; line-height: 1em; text-align: center; color: #fff; letter-spacing: 0.1em; font-weight: 500; padding: 15px 0 15px 65px; text-decoration: none; transition: all 0.3s ease-in; }
+aside#menu-moviles nav a:hover { transition: all 0.3s ease-in; color: #000; }
+
+/* Header */
+header { width: 100%;height: 90px;margin: 0;float: none;position: fixed;top: 0;left: 0;z-index: 99990;background: #fff; }
+header article { width: 1280px;height: 100px;margin: 0 auto;float: none;position: relative; padding: 0 36px; background: #3d3c5d; }
+
+header article figure {width: 150px;height: 1300px;margin: 0;float: left;position: relative; }
+header article figure a {width: 85px;height: 130px;margin: 0 auto;float: none;position: relative;display: block;transition: all 0.3s ease-in; }
+header article figure a img {width: auto;height: 100px;display: block;margin: 0;float: none;position: relative; transition: all 0.3s ease-in; }
+header article figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
+header article figure a:hover img { transition: all 0.3s ease-in; }
+
+header article nav { width: 415px;height: 50px;margin: 25px 0;float: right;position: relative; }
+header article nav a { width: auto;height: auto; margin: 0;float: left;position: relative;display: block;color: #5153fd;text-decoration: none; font-size: 0.95em;line-height: 1em;font-weight: 500;padding: 17.5px 9px 15.5px;text-transform: uppercase;letter-spacing: 0.08em;border-bottom: solid 2px #3d3c5d; transition: all 0.3s ease-in; }
+header article nav a:hover { color: #000; border-bottom: solid 2px #5153fd; transition: all 0.3s ease-in; }
+
+/* Main */
+main { width: 100%;height: auto;margin: 140px 0 auto; float: none;position: relative; }
+
+/* Presentacion */
+main section#presentacion { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+main section#presentacion h1 {  font-size: 2.5em; line-height: 1em; text-align: center; color: #000; letter-spacing: 0.035em; font-weight: 900; padding: 0 0 13px; }
+
+/* Consolas, Juego y Accesorios */
+main section.section-articulos { width: 100%; height: auto; margin: 0 auto 90px; float: none; position: relative; } 
+main section.section-articulos div.contenido-centrado { width: 1100px; height: auto; margin: 0 auto; float: none; position: relative }
+
+main section.section-articulos div.contenido-centrado article { width: 100%; height: auto; margin: 0 auto 50px; float: none; position: relative }
+main section.section-articulos div.contenido-centrado article h3 { font-size: 3em; line-height: 1em; text-align: center; color: #0804f5; letter-spacing: -0.03em; font-weight: 900; padding: 0;  }
+
+main section.section-articulos div.contenido-centrado figure { width: 100%; height: auto; margin: 0 auto; float: none; position: relative  }
+main section.section-articulos div.contenido-centrado figure div.articulos { width: 520px; height: 120px; margin: 80px 0; float: none; position: relative; display: block; }
+main section.section-articulos div.contenido-centrado figure div.articulos img { width: 100px; height: 100px; display: block; margin: 0; float: none; position: absolute; top: -40px; left: 0; }
+main section.section-articulos div.contenido-centrado figure div.articulos div.info-articulos { width: 400px; height: 110px; display: block; margin: 0; float: none; position: absolute; top: 0; right: 0; }
+main section.section-articulos div.contenido-centrado figure div.articulos div.info-articulos h4 { font-size: 1.25em; line-height: 1em; text-align: left; color: #000; letter-spacing: 0.035em; font-weight: 700; padding: 0 0 13px; }
+main section.section-articulos div.contenido-centrado figure div.articulos div.info-articulos p.texto-articulos { font-size: 0.9em; line-height: 1.15em; text-align: left; color: #6b5c5c; letter-spacing: 0.035em; font-weight: 400; padding: 0 0 13px; }
+main section.section-articulos div.contenido-centrado figure div.articulos div.info-articulos p.precio-articulos { width: 50px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 5px; right: -75px; font-size: 1em; line-height: 1em; text-align: right; color: #080bc5; letter-spacing: -0.015em; font-weight: 500; padding: 0; }
+
+/* Banner video Youtube */
+main section#banner-video-youtube { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+main section#banner-video-youtube iframe { width: 90vh; height: 50vh; margin: 0 auto; float: none; padding: 0 0 0 50vh; position: relative; } 
+
+/* Section de adquisiciones */
+main section#proximas-adquisiciones { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+main section#proximas-adquisiciones nav { width: 1100px; height: auto; margin: 0 auto; float: none; position: relative; }
+main section#proximas-adquisiciones nav a { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; padding: 70px 0 } 
+main section#proximas-adquisiciones nav a img { width: 250px; height: 250px; margin: 10px; float: none; position: relative; display: inline-block; overflow: hidden; border-radius: 5px; transition: ease-in } 
+
+
+/* Slick logos */
+main section#banner-slick { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+main section#banner-slick h3 { font-size: 2.5em; line-height: 1em; text-align: center; color: #0804f5; letter-spacing: -0.03em; font-weight: 900; padding: 0 0 55px; }
+main section#banner-slick article.slick-slider { width: 1100px; height: 300px; margin: 0 auto; float: none; position: relative; overflow-x: hidden; overflow-y: hidden; }
+main section#banner-slick article.slick-slider img { height: 20vh; margin: 0 50px; float: left; position: relative; display: block; padding: 20px; }
+                
+
+footer { width: 100%;height: 230px;margin: 0;float: none;position: relative; background:#3d3c5d; }
+footer article { width: 900px;height: 200px;margin: 0 auto;float: none;position: relative; }
+footer article figure { width: 108px; height: 180px; margin: 20px 40px; float: left; position: relative; padding: 5px 320px; }
+footer article figure a { width: 108px;height: 180px;margin: 0 auto;float: none;position: relative;display: block;transition: all 0.3s ease-in; }
+footer article figure a img { width: auto;height: 180px;display: block;margin: 0 auto;float: none;transition: all 0.3s ease-in; }
+footer article figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
+footer article figure a:hover img { transition: all 0.3s ease-in; }
+
+
+@media only screen and (max-width:1199px){
+    header { height: 80px; box-shadow: 0 3px 5px rgba(0 0 0 / 15%); }
+    header article { width: 90%; height: 90px; }
+    header article figure {margin: 0 auto;float: none; }
+    header article nav { display: none; }
+
+    main section#presentacion { width: 1100px; height: 110px; margin: -30px 0; }
+
+    main section.section-articulos div.contenido-centrado figure div.articulos { width: 80%; height: 60px; margin: 50px; }
+
+    main section.section-articulos div.contenido-centrado figure div.articulos div.info-articulos { width: 710px; height: 110px; margin: -30px 0; }
+
+    aside#menu-moviles { display: block }
+    aside#menu-moviles nav a:hover { transition: all 0.3s ease-in; }
+
+    footer { width: 1100px; }
+
+}
+
+/* Rango de Smarthphone: (max 499px y min 400px) */
+@media only screen and (max-with: 499px){
+
+}
+
+/* Rango de Mini-Smarthphone: (max 399px y min 340px) */
+@media only screen and (max-with: 399px){
+
+}    
+
+
+
+
+
+
+
